@@ -1,0 +1,31 @@
+@use '../base/colors';
+@use '../base/fonts';
+
+header {
+    grid-area: a;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    font-family: 'Inter', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    h1 {
+        color: colors.$color-primary;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bolder;
+        font-size: 1.5rem;
+    }
+
+    .avatar {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 50%;
+        right: 30px;
+        transform: translateY(-50%);
+        border-radius: 50%;
+        background: url('../assets/img/me.jpg') center center/cover;
+    }
+}

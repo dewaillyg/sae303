@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Roboto+Condensed:wght@300;400;600&display=swap");
+header {
+  grid-area: a;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  font-family: "Inter", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+header h1 {
+  color: #e3e6ed;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+header .avatar {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background: url("../assets/img/me.jpg") center center/cover;
+}
+
+section[class^=section] {
+  background-color: #141824;
+  border: 1px solid white;
+}
+
+.section-one {
+  grid-area: b;
+}
+
+.section-two {
+  grid-area: c;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-two #C2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.section-three {
+  grid-area: d;
+}
+
+.section-four {
+  grid-area: e;
+}
+
+.section-five {
+  grid-area: f;
+}
+
+.section-six {
+  grid-area: g;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: "Roboto Condensed", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0f111a;
+  color: #e3e6ed;
+  display: grid;
+  grid-template-columns: 2fr repeat(2, 1fr);
+  grid-template-rows: 50px 1fr 50px 1fr 50px;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  grid-template-areas: "a a a" "b d e" "ba da ea" "c f g" "ca fa ga";
+}
+
+/*# sourceMappingURL=dashboard.css.map */

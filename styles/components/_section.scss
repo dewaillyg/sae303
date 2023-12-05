@@ -1,0 +1,41 @@
+@use '../base/colors';
+@use '../base/fonts';
+
+section[class^="section"] {
+    background-color: colors.$color-background-section;
+    border: 1px solid white;
+}
+
+.section-one {
+    grid-area: b;
+}
+
+.section-two {
+    grid-area: c;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    #C2 {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.section-three {
+    grid-area: d;
+}
+
+.section-four {
+    grid-area: e;
+}
+
+.section-five {
+    grid-area: f;
+}
+
+.section-six {
+    grid-area: g;
+}
