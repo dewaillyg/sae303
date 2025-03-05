@@ -1,4 +1,4 @@
-# 📊 Dashboard Énergie - Portfolio
+# 📊 Dashboard Énergie
 
 ## 🌟 Fonctionnalités Principales
 
