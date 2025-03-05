@@ -21,6 +21,10 @@
 - **SASS** : Gestion du style de manière optimisée et modulaire.
 - **JavaScript** : Dynamisation des interactions et affichage des graphiques.
 
+## 🎨 Aperçu Visuel
+![img4](https://github.com/user-attachments/assets/cd945281-6adc-4a43-aafa-c416d8d0d9a0)
+
+
 ## 🚀 Défis et Solutions
 
 🔸 **Problème des formulaires indépendants** :
